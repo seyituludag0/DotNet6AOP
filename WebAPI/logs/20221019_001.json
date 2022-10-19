@@ -1,0 +1,3 @@
+2022-10-19 23:46:55.606 +03:00 [Error] {"ExceptionMessage":"Value cannot be null. (Parameter 'entity')","MethodName":"Add","LogParameters":[{"Name":"category","Value":{"CategoryId":0,"CategoryName":"dsfgbbfdf"},"Type":"Entities.Concretes.Category"}]}
+2022-10-19 23:52:43.496 +03:00 [Information] {"MethodName":"Add","ExceptionMessage":null,"LogParameters":[{"Name":"category","Value":{"CategoryId":0,"CategoryName":"kalem"},"Type":"Entities.Concretes.Category"}]}
+2022-10-19 23:57:46.867 +03:00 [Information] {"MethodName":"Add","ExceptionMessage":null,"LogParameters":[{"Name":"category","Value":{"CategoryId":0,"CategoryName":"penciiill"},"Type":"Entities.Concretes.Category"}]}
