@@ -30,6 +30,7 @@ namespace Business.Concretes
             Category ctgry = new();
             ctgry.CategoryName = category.CategoryName;
 
+            //_categoryDal.Add(ctgry);
             _categoryDal.Add(null);
         }
 
@@ -38,7 +39,7 @@ namespace Business.Concretes
             throw new NotImplementedException();
         }
 
-        //[LogAspect(typeof(FileLogger))]
+        [LogAspect(typeof(FileLogger))]
         //[ExceptionLogAspect(typeof(FileLogger))]
         public List<Category> GetAll()
         {

@@ -51,7 +51,7 @@ builder.Services.AddBusinessServices();
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterModule(new AutofacBusinessModule()));
 
-builder.Services.AddTransient<FileLogger>();
+builder.Services.AddSingleton<FileLogger>();
 
 builder.Services.AddDependencyResolvers(new ICoreModule[]
             {

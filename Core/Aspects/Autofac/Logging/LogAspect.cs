@@ -46,7 +46,8 @@ namespace Core.Aspects.Autofac.Logging
             LogDetail logDetail = new()
             {
                 MethodName = invocation.GetConcreteMethod().Name,
-                LogParameters = parameters
+                LogParameters = parameters,
+                
             };
             return JsonConvert.SerializeObject(logDetail);
         }

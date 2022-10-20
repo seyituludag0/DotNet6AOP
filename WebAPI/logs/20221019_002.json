@@ -1,2 +1,0 @@
-2022-10-19 23:57:47.367 +03:00 [Error] {"ExceptionMessage":"Value cannot be null. (Parameter 'entity')","MethodName":"Add","LogParameters":[{"Name":"category","Value":{"CategoryId":0,"CategoryName":"penciiill"},"Type":"Entities.Concretes.Category"}]}
-2022-10-19 23:59:31.336 +03:00 [Information] {"MethodName":"Add","ExceptionMessage":null,"LogParameters":[{"Name":"category","Value":{"CategoryId":0,"CategoryName":"s"},"Type":"Entities.Concretes.Category"}]}
